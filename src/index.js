@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import SS from './components/Test';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <SS mainheading='Ejaz' subheading='test' subheadingtwo='Hello world' />
+    
   </React.StrictMode>
 );
 
