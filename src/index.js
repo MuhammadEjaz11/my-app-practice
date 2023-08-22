@@ -4,14 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import SS from './components/Test';
+import Counter from './components/counter';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-    <SS mainheading='Ejaz' subheading='test' subheadingtwo='Hello world' />
+    
+    <Counter />
+    {/* <SS mainheading='Ejaz' subheading='test' subheadingtwo='Hello world' /> */}
     
   </React.StrictMode>
 );

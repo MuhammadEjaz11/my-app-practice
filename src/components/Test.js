@@ -6,10 +6,11 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { propTypes } from 'react-bootstrap/esm/Image';
 import PropTypes from 'prop-types';
+import './test.css'
 
 function BasicExample(props) {
     return (
-        <Navbar expand="lg" className="bg-body-tertiary">
+        <Navbar expand="lg" className="bg-body-tertiary testcolor">
             <Container>
                 <Navbar.Brand href="#home">{props.mainheading}</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
